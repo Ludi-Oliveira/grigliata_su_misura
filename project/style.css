@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(118, 143, 143);
+    
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(219, 226, 226);
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.541);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.number {
+    min-width: 100%;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+.button {
+    padding: 4px;
+    margin: 5px;
+}
+
+#res {
+    margin: 5px 0 0 0;
+    line-height: 24px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(219, 226, 226);
+    font-size: 14px;
+    margin: 20px;
+}
+
+/* .contInput {
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    FLEX: deixa todos os itens flexíveis terem o mesmo comprimento, independente do conteúdo
+    flex: 1;
+    padding: 4px;
+    margin: 7px 0;
+}
+
+#res {
+    margin: auto;
+} */
+

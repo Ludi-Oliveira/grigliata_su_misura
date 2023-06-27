@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grigliata su misura!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- OBJETIVO:
+    Página simples para calcular a quantidade de carne, bebidas não alcoolicas e cerveja, baseado na quantidade de pessoas e sua duração. -->
+    <!-- ESTRUTURA HTML:
+    H1 com o nome do programa; 3 inputs type number que calculam quantidade de adultos, crianças e duração; um button para enviar as infos -->
+    <!-- ESTRUTURA CSS:
+    Form centralizado e com background azul claro -->
+    <!-- ESTRUTURA / SOLUÇÃO JS:
+    infos no arquivo -->
+
+    <header>
+        <h1>
+            Grigliata su misura
+        </h1>
+    </header>
+
+    <section>
+        <div class="container">
+            <input type="number" class="number" id="adult" placeholder="Adulti">
+            <input type="number" class="number" id="child" placeholder="Bambini">
+            <input type="number" class="number" id="hours" placeholder="Durata in ore">
+           <input type="button"value="Calcolare" class="button" onclick="calcular()">
+        </div>
+        <div id="res">
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; by Ludimilla de Oliveira</p>
+    </footer>
+
+   <script src="script.js"></script>
+    
+</body>
+</html>
